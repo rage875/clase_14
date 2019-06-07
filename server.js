@@ -8,19 +8,19 @@ const port = 9000
 // Contestando una petición por <método>'
 
 app.get('/', function (req, res) {
-    res.send('Contestando una petición por <get>')
+    res.send('Contestando una petición por GET')
 })
 
 app.post('/', function (req, res) {
-    res.send('Contestando una petición por <post>')
+    res.send('Contestando una petición por POST')
 })
 
 app.put('/', function (req, res) {
-    res.send('Contestando una petición por <delete>')
+    res.send('Contestando una petición por PUT')
 })
 
 app.delete('/', function (req, res) {
-    res.send('Contestando una petición por <delete>')
+    res.send('Contestando una petición por DELETE')
 })
 
 app.listen(port, function () { 
